@@ -1,0 +1,34 @@
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\bin\Debug\Los Sauces.exe.config
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\bin\Debug\Los Sauces.exe
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\bin\Debug\Los Sauces.pdb
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\bin\Debug\Los Sauces.xml
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.Resources.resources
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los Sauces.vbproj.GenerateResource.Cache
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los Sauces.exe
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los Sauces.xml
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los Sauces.pdb
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.Portada.resources
+c:\users\nicolas\documents\visual studio 2013\Projects\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.MenuPrincipal.resources
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.exe.config
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.exe
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.xml
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.pdb
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.exe
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.pdb
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.xml
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.vbprojResolveAssemblyReference.cache
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.Portada.resources
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.MenuPrincipal.resources
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.Resources.resources
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.vbproj.GenerateResource.Cache
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.CargaDatos.resources
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.cargaPaciente.resources
+J:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los_Sauces.cargaDoctor.resources
+F:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.exe.config
+F:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.exe
+F:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.xml
+F:\FACULTAD\2DO SEMESTRE\LABORATORIO II\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.pdb
+C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.exe.config
+C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.exe
+C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.xml
+C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.pdb
