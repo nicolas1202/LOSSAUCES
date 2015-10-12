@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -70,10 +85,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pantallas\ABM\frmCargaDoctor.Designer.vb">
-      <DependentUpon>frmCargaDoctor.vb</DependentUpon>
+    <Compile Include="Clases\Utilidades.vb" />
+    <Compile Include="BaseDatos\HOSPITALDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HOSPITALDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\ABM\frmCargaDoctor.vb">
+    <Compile Include="Pantallas\ABM\FrmABMDoctor.Designer.vb">
+      <DependentUpon>FrmABMDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmABMDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmCargaDoctor.Designer.vb">
+      <DependentUpon>FrmCargaDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmCargaDoctor.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Pantallas\CargaDatos.Designer.vb">
@@ -124,8 +151,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pantallas\ABM\frmCargaDoctor.resx">
-      <DependentUpon>frmCargaDoctor.vb</DependentUpon>
+    <EmbeddedResource Include="Pantallas\ABM\FrmABMDoctor.resx">
+      <DependentUpon>FrmABMDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ABM\FrmCargaDoctor.resx">
+      <DependentUpon>FrmCargaDoctor.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pantallas\CargaDatos.resx">
       <DependentUpon>CargaDatos.vb</DependentUpon>
@@ -150,6 +180,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BaseDatos\HOSPITALDataSet.xsc">
+      <DependentUpon>HOSPITALDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BaseDatos\HOSPITALDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HOSPITALDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BaseDatos\HOSPITALDataSet.xss">
+      <DependentUpon>HOSPITALDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -165,7 +206,6 @@
     <None Include="Resources\logo1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Clases\" />
     <Folder Include="Pantallas\Consultas\" />
     <Folder Include="Pantallas\Procesos\" />
   </ItemGroup>
@@ -180,6 +220,44 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-mas.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar_persona.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_male_user_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseDatos\HOSPITAL.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\People-Doctor-Male-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
