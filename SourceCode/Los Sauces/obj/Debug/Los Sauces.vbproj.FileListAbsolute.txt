@@ -39,7 +39,6 @@ C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.exe
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.pdb
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.xml
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los Sauces.vbprojResolveAssemblyReference.cache
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.frmCargaDoctor.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.CargaDatos.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.cargaDoctor.resources
@@ -49,4 +48,4 @@ C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.Resources.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los Sauces.vbproj.GenerateResource.Cache
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.FrmABMDoctor.resources
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\BaseDatos\HOSPITAL.accdb
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\BaseDatos\LosSaucesBD.accdb

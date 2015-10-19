@@ -57,11 +57,11 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\BaseDatos\HOSPITAL."& _ 
-            "accdb")>  _
-        Public ReadOnly Property HOSPITALConnectionString() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\BaseDatos\LosSauces"& _ 
+            "BD.accdb")>  _
+        Public ReadOnly Property CadenaConexion() As String
             Get
-                Return CType(Me("HOSPITALConnectionString"),String)
+                Return CType(Me("CadenaConexion"),String)
             End Get
         End Property
     End Class

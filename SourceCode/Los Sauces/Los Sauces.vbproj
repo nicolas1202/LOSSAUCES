@@ -58,7 +58,7 @@
     <OptionStrict>Off</OptionStrict>
   </PropertyGroup>
   <PropertyGroup>
-    <OptionInfer>On</OptionInfer>
+    <OptionInfer>Off</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,12 +85,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\DIRECCIONNG.vb" />
+    <Compile Include="Clases\MAESTRONG.vb" />
+    <Compile Include="Clases\MEDICONG.vb" />
     <Compile Include="Clases\Utilidades.vb" />
-    <Compile Include="BaseDatos\HOSPITALDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HOSPITALDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Pantallas\ABM\FrmABMDoctor.Designer.vb">
       <DependentUpon>FrmABMDoctor.vb</DependentUpon>
     </Compile>
@@ -180,17 +178,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="BaseDatos\HOSPITALDataSet.xsc">
-      <DependentUpon>HOSPITALDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BaseDatos\HOSPITALDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>HOSPITALDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BaseDatos\HOSPITALDataSet.xss">
-      <DependentUpon>HOSPITALDataSet.xsd</DependentUpon>
-    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -206,6 +193,7 @@
     <None Include="Resources\logo1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Controles\" />
     <Folder Include="Pantallas\Consultas\" />
     <Folder Include="Pantallas\Procesos\" />
   </ItemGroup>
@@ -237,9 +225,8 @@
     <None Include="Resources\lupa.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BaseDatos\HOSPITAL.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="Resources\add.png" />
+    <None Include="Resources\icono_eliminar.gif" />
     <None Include="Resources\People-Doctor-Male-icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -258,6 +245,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseDatos\LosSaucesBD.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

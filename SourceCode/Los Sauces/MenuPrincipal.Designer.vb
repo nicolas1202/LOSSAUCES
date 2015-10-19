@@ -36,7 +36,7 @@ Partial Class MenuPrincipal
         '
         'btnCargar
         '
-        Me.btnCargar.Location = New System.Drawing.Point(82, 265)
+        Me.btnCargar.Location = New System.Drawing.Point(128, 302)
         Me.btnCargar.Name = "btnCargar"
         Me.btnCargar.Size = New System.Drawing.Size(168, 39)
         Me.btnCargar.TabIndex = 1
@@ -45,7 +45,7 @@ Partial Class MenuPrincipal
         '
         'btnModificar
         '
-        Me.btnModificar.Location = New System.Drawing.Point(128, 310)
+        Me.btnModificar.Location = New System.Drawing.Point(128, 347)
         Me.btnModificar.Name = "btnModificar"
         Me.btnModificar.Size = New System.Drawing.Size(168, 43)
         Me.btnModificar.TabIndex = 2
@@ -99,7 +99,7 @@ Partial Class MenuPrincipal
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(82, 181)
+        Me.Button1.Location = New System.Drawing.Point(128, 181)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(168, 39)
         Me.Button1.TabIndex = 8
