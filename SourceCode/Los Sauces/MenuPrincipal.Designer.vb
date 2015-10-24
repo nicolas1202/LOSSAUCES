@@ -22,133 +22,311 @@ Partial Class MenuPrincipal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnCargar = New System.Windows.Forms.Button()
-        Me.btnModificar = New System.Windows.Forms.Button()
-        Me.btnBorrar = New System.Windows.Forms.Button()
-        Me.btnConsultar = New System.Windows.Forms.Button()
-        Me.btnInformes = New System.Windows.Forms.Button()
-        Me.btnVolverPortada = New System.Windows.Forms.Button()
-        Me.btnSalir = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuPrincipal))
+        Me.pboxEncabezado = New System.Windows.Forms.PictureBox()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator = New System.Windows.Forms.ToolStripSeparator()
+        Me.GuardarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GuardarcomoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DeshacerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RehacerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.CortarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopiarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PegarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SeleccionartodoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PersonalizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContenidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ÍndiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
+        Me.AcercadeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblStatus2 = New System.Windows.Forms.ToolStripStatusLabel()
+        CType(Me.pboxEncabezado, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'btnCargar
+        'pboxEncabezado
         '
-        Me.btnCargar.Location = New System.Drawing.Point(128, 302)
-        Me.btnCargar.Name = "btnCargar"
-        Me.btnCargar.Size = New System.Drawing.Size(168, 39)
-        Me.btnCargar.TabIndex = 1
-        Me.btnCargar.Text = "Cargar"
-        Me.btnCargar.UseVisualStyleBackColor = True
+        Me.pboxEncabezado.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pboxEncabezado.Image = Global.Los_Sauces.My.Resources.Resources.logo1
+        Me.pboxEncabezado.Location = New System.Drawing.Point(0, 0)
+        Me.pboxEncabezado.Name = "pboxEncabezado"
+        Me.pboxEncabezado.Size = New System.Drawing.Size(785, 140)
+        Me.pboxEncabezado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pboxEncabezado.TabIndex = 0
+        Me.pboxEncabezado.TabStop = False
         '
-        'btnModificar
+        'MenuStrip1
         '
-        Me.btnModificar.Location = New System.Drawing.Point(128, 347)
-        Me.btnModificar.Name = "btnModificar"
-        Me.btnModificar.Size = New System.Drawing.Size(168, 43)
-        Me.btnModificar.TabIndex = 2
-        Me.btnModificar.Text = "Modificar"
-        Me.btnModificar.UseVisualStyleBackColor = True
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.EditarToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.DoctorToolStripMenuItem, Me.AyudaToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 140)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(785, 24)
+        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'btnBorrar
+        'ArchivoToolStripMenuItem
         '
-        Me.btnBorrar.Location = New System.Drawing.Point(128, 396)
-        Me.btnBorrar.Name = "btnBorrar"
-        Me.btnBorrar.Size = New System.Drawing.Size(168, 41)
-        Me.btnBorrar.TabIndex = 3
-        Me.btnBorrar.Text = "Borrar"
-        Me.btnBorrar.UseVisualStyleBackColor = True
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem, Me.toolStripSeparator, Me.GuardarToolStripMenuItem, Me.GuardarcomoToolStripMenuItem, Me.toolStripSeparator2, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
+        Me.ArchivoToolStripMenuItem.Text = "&Archivo"
         '
-        'btnConsultar
+        'NuevoToolStripMenuItem
         '
-        Me.btnConsultar.Location = New System.Drawing.Point(452, 226)
-        Me.btnConsultar.Name = "btnConsultar"
-        Me.btnConsultar.Size = New System.Drawing.Size(169, 40)
-        Me.btnConsultar.TabIndex = 4
-        Me.btnConsultar.Text = "Consultar"
-        Me.btnConsultar.UseVisualStyleBackColor = True
+        Me.NuevoToolStripMenuItem.Image = CType(resources.GetObject("NuevoToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.NuevoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
+        Me.NuevoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.NuevoToolStripMenuItem.Text = "&Nuevo"
         '
-        'btnInformes
+        'toolStripSeparator
         '
-        Me.btnInformes.Location = New System.Drawing.Point(452, 310)
-        Me.btnInformes.Name = "btnInformes"
-        Me.btnInformes.Size = New System.Drawing.Size(169, 43)
-        Me.btnInformes.TabIndex = 5
-        Me.btnInformes.Text = "Informes"
-        Me.btnInformes.UseVisualStyleBackColor = True
+        Me.toolStripSeparator.Name = "toolStripSeparator"
+        Me.toolStripSeparator.Size = New System.Drawing.Size(203, 6)
         '
-        'btnVolverPortada
+        'GuardarToolStripMenuItem
         '
-        Me.btnVolverPortada.Location = New System.Drawing.Point(452, 396)
-        Me.btnVolverPortada.Name = "btnVolverPortada"
-        Me.btnVolverPortada.Size = New System.Drawing.Size(169, 41)
-        Me.btnVolverPortada.TabIndex = 6
-        Me.btnVolverPortada.Text = "Volver a portada"
-        Me.btnVolverPortada.UseVisualStyleBackColor = True
+        Me.GuardarToolStripMenuItem.Image = CType(resources.GetObject("GuardarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.GuardarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.GuardarToolStripMenuItem.Name = "GuardarToolStripMenuItem"
+        Me.GuardarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
+        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.GuardarToolStripMenuItem.Text = "&Guardar"
         '
-        'btnSalir
+        'GuardarcomoToolStripMenuItem
         '
-        Me.btnSalir.Location = New System.Drawing.Point(322, 464)
-        Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(106, 38)
-        Me.btnSalir.TabIndex = 7
-        Me.btnSalir.Text = "Salir"
-        Me.btnSalir.UseVisualStyleBackColor = True
+        Me.GuardarcomoToolStripMenuItem.Name = "GuardarcomoToolStripMenuItem"
+        Me.GuardarcomoToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.GuardarcomoToolStripMenuItem.Text = "G&uardar como"
         '
-        'Button1
+        'toolStripSeparator2
         '
-        Me.Button1.Location = New System.Drawing.Point(128, 181)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(168, 39)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Doctor"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.toolStripSeparator2.Name = "toolStripSeparator2"
+        Me.toolStripSeparator2.Size = New System.Drawing.Size(203, 6)
         '
-        'PictureBox1
+        'SalirToolStripMenuItem
         '
-        Me.PictureBox1.Image = Global.Los_Sauces.My.Resources.Resources.logo1
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 2)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(786, 138)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.SalirToolStripMenuItem.Text = "&Salir"
+        '
+        'EditarToolStripMenuItem
+        '
+        Me.EditarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeshacerToolStripMenuItem, Me.RehacerToolStripMenuItem, Me.toolStripSeparator3, Me.CortarToolStripMenuItem, Me.CopiarToolStripMenuItem, Me.PegarToolStripMenuItem, Me.toolStripSeparator4, Me.SeleccionartodoToolStripMenuItem})
+        Me.EditarToolStripMenuItem.Name = "EditarToolStripMenuItem"
+        Me.EditarToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
+        Me.EditarToolStripMenuItem.Text = "&Editar"
+        '
+        'DeshacerToolStripMenuItem
+        '
+        Me.DeshacerToolStripMenuItem.Name = "DeshacerToolStripMenuItem"
+        Me.DeshacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
+        Me.DeshacerToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.DeshacerToolStripMenuItem.Text = "&Deshacer"
+        '
+        'RehacerToolStripMenuItem
+        '
+        Me.RehacerToolStripMenuItem.Name = "RehacerToolStripMenuItem"
+        Me.RehacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
+        Me.RehacerToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.RehacerToolStripMenuItem.Text = "&Rehacer"
+        '
+        'toolStripSeparator3
+        '
+        Me.toolStripSeparator3.Name = "toolStripSeparator3"
+        Me.toolStripSeparator3.Size = New System.Drawing.Size(160, 6)
+        '
+        'CortarToolStripMenuItem
+        '
+        Me.CortarToolStripMenuItem.Image = CType(resources.GetObject("CortarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.CortarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.CortarToolStripMenuItem.Name = "CortarToolStripMenuItem"
+        Me.CortarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
+        Me.CortarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.CortarToolStripMenuItem.Text = "Cor&tar"
+        '
+        'CopiarToolStripMenuItem
+        '
+        Me.CopiarToolStripMenuItem.Image = CType(resources.GetObject("CopiarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.CopiarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.CopiarToolStripMenuItem.Name = "CopiarToolStripMenuItem"
+        Me.CopiarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
+        Me.CopiarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.CopiarToolStripMenuItem.Text = "&Copiar"
+        '
+        'PegarToolStripMenuItem
+        '
+        Me.PegarToolStripMenuItem.Image = CType(resources.GetObject("PegarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PegarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.PegarToolStripMenuItem.Name = "PegarToolStripMenuItem"
+        Me.PegarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
+        Me.PegarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.PegarToolStripMenuItem.Text = "&Pegar"
+        '
+        'toolStripSeparator4
+        '
+        Me.toolStripSeparator4.Name = "toolStripSeparator4"
+        Me.toolStripSeparator4.Size = New System.Drawing.Size(160, 6)
+        '
+        'SeleccionartodoToolStripMenuItem
+        '
+        Me.SeleccionartodoToolStripMenuItem.Name = "SeleccionartodoToolStripMenuItem"
+        Me.SeleccionartodoToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
+        Me.SeleccionartodoToolStripMenuItem.Text = "&Seleccionar todo"
+        '
+        'HerramientasToolStripMenuItem
+        '
+        Me.HerramientasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonalizarToolStripMenuItem, Me.OpcionesToolStripMenuItem})
+        Me.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem"
+        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
+        Me.HerramientasToolStripMenuItem.Text = "&Herramientas"
+        '
+        'PersonalizarToolStripMenuItem
+        '
+        Me.PersonalizarToolStripMenuItem.Name = "PersonalizarToolStripMenuItem"
+        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PersonalizarToolStripMenuItem.Text = "&Personalizar"
+        '
+        'OpcionesToolStripMenuItem
+        '
+        Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
+        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpcionesToolStripMenuItem.Text = "&Opciones"
+        '
+        'AyudaToolStripMenuItem
+        '
+        Me.AyudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContenidoToolStripMenuItem, Me.ÍndiceToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.toolStripSeparator5, Me.AcercadeToolStripMenuItem})
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.AyudaToolStripMenuItem.Text = "Ay&uda"
+        '
+        'ContenidoToolStripMenuItem
+        '
+        Me.ContenidoToolStripMenuItem.Name = "ContenidoToolStripMenuItem"
+        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ContenidoToolStripMenuItem.Text = "&Contenido"
+        '
+        'ÍndiceToolStripMenuItem
+        '
+        Me.ÍndiceToolStripMenuItem.Name = "ÍndiceToolStripMenuItem"
+        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ÍndiceToolStripMenuItem.Text = "Índic&e"
+        '
+        'BuscarToolStripMenuItem
+        '
+        Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BuscarToolStripMenuItem.Text = "&Buscar"
+        '
+        'toolStripSeparator5
+        '
+        Me.toolStripSeparator5.Name = "toolStripSeparator5"
+        Me.toolStripSeparator5.Size = New System.Drawing.Size(149, 6)
+        '
+        'AcercadeToolStripMenuItem
+        '
+        Me.AcercadeToolStripMenuItem.Name = "AcercadeToolStripMenuItem"
+        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AcercadeToolStripMenuItem.Text = "&Acerca de..."
+        '
+        'DoctorToolStripMenuItem
+        '
+        Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
+        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
+        Me.DoctorToolStripMenuItem.Text = "Doctor"
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblStatus2, Me.lblStatus})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 553)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(785, 22)
+        Me.StatusStrip1.TabIndex = 2
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'lblStatus
+        '
+        Me.lblStatus.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(54, 17)
+        Me.lblStatus.Text = "Beta v1.0"
+        '
+        'lblStatus2
+        '
+        Me.lblStatus2.Name = "lblStatus2"
+        Me.lblStatus2.Size = New System.Drawing.Size(716, 17)
+        Me.lblStatus2.Spring = True
+        Me.lblStatus2.Text = "By Pablo Exequiel Quiroga && Nicolas Schmidt"
         '
         'MenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.OliveDrab
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.BackgroundImage = Global.Los_Sauces.My.Resources.Resources.FondoVerde00
         Me.ClientSize = New System.Drawing.Size(785, 575)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.btnSalir)
-        Me.Controls.Add(Me.btnVolverPortada)
-        Me.Controls.Add(Me.btnInformes)
-        Me.Controls.Add(Me.btnConsultar)
-        Me.Controls.Add(Me.btnBorrar)
-        Me.Controls.Add(Me.btnModificar)
-        Me.Controls.Add(Me.btnCargar)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.StatusStrip1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.pboxEncabezado)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False
         Me.Name = "MenuPrincipal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Los Sauces - Menu Principal"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pboxEncabezado, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents btnCargar As System.Windows.Forms.Button
-    Friend WithEvents btnModificar As System.Windows.Forms.Button
-    Friend WithEvents btnBorrar As System.Windows.Forms.Button
-    Friend WithEvents btnConsultar As System.Windows.Forms.Button
-    Friend WithEvents btnInformes As System.Windows.Forms.Button
-    Friend WithEvents btnVolverPortada As System.Windows.Forms.Button
-    Friend WithEvents btnSalir As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents pboxEncabezado As System.Windows.Forms.PictureBox
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents ArchivoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NuevoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolStripSeparator As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents GuardarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GuardarcomoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EditarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DeshacerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RehacerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents CortarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CopiarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PegarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolStripSeparator4 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents SeleccionartodoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HerramientasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PersonalizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OpcionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AyudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContenidoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ÍndiceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BuscarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolStripSeparator5 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents AcercadeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DoctorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
+    Friend WithEvents lblStatus As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents lblStatus2 As System.Windows.Forms.ToolStripStatusLabel
 End Class
