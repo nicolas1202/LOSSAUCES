@@ -112,30 +112,35 @@ Partial Class FrmABMDoctor
         '
         'Legajo
         '
+        Me.Legajo.DataPropertyName = "nroleg"
         Me.Legajo.HeaderText = "Legajo"
         Me.Legajo.Name = "Legajo"
         Me.Legajo.ReadOnly = True
         '
         'Nombre
         '
+        Me.Nombre.DataPropertyName = "nomae"
         Me.Nombre.HeaderText = "Nombre"
         Me.Nombre.Name = "Nombre"
         Me.Nombre.ReadOnly = True
         '
         'Apellido
         '
+        Me.Apellido.DataPropertyName = "apemae"
         Me.Apellido.HeaderText = "Apellido"
         Me.Apellido.Name = "Apellido"
         Me.Apellido.ReadOnly = True
         '
         'Especialidad
         '
+        Me.Especialidad.DataPropertyName = "nroesp"
         Me.Especialidad.HeaderText = "Especialidad"
         Me.Especialidad.Name = "Especialidad"
         Me.Especialidad.ReadOnly = True
         '
         'Matricula
         '
+        Me.Matricula.DataPropertyName = "nromat"
         Me.Matricula.HeaderText = "Matricula"
         Me.Matricula.Name = "Matricula"
         Me.Matricula.ReadOnly = True

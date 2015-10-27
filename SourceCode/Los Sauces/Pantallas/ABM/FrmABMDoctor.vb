@@ -2,7 +2,8 @@
     Private filaActual As DataRowView
     Private Sub FrmABMDoctor_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         grdConsulta.AutoGenerateColumns = False
-        grdConsulta.DataSource = MEDICONG.ObtenerMedico(String.Empty)
+        Dim a As DSLosSaucesTableAdapters.MEDICOTableAdapter = New DSLosSaucesTableAdapters.MEDICOTableAdapter()
+        grdConsulta.DataSource = a.GetDataTable()
     End Sub
 
     Private Sub grdConsulta_SelectionChanged(sender As Object, e As EventArgs) Handles grdConsulta.SelectionChanged

@@ -44,16 +44,16 @@ Partial Class MenuPrincipal
         Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PersonalizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContenidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÍndiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
         Me.AcercadeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel()
         Me.lblStatus2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel()
         CType(Me.pboxEncabezado, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -98,7 +98,7 @@ Partial Class MenuPrincipal
         'toolStripSeparator
         '
         Me.toolStripSeparator.Name = "toolStripSeparator"
-        Me.toolStripSeparator.Size = New System.Drawing.Size(203, 6)
+        Me.toolStripSeparator.Size = New System.Drawing.Size(153, 6)
         '
         'GuardarToolStripMenuItem
         '
@@ -106,24 +106,24 @@ Partial Class MenuPrincipal
         Me.GuardarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.GuardarToolStripMenuItem.Name = "GuardarToolStripMenuItem"
         Me.GuardarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
         Me.GuardarToolStripMenuItem.Text = "&Guardar"
         '
         'GuardarcomoToolStripMenuItem
         '
         Me.GuardarcomoToolStripMenuItem.Name = "GuardarcomoToolStripMenuItem"
-        Me.GuardarcomoToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.GuardarcomoToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
         Me.GuardarcomoToolStripMenuItem.Text = "G&uardar como"
         '
         'toolStripSeparator2
         '
         Me.toolStripSeparator2.Name = "toolStripSeparator2"
-        Me.toolStripSeparator2.Size = New System.Drawing.Size(203, 6)
+        Me.toolStripSeparator2.Size = New System.Drawing.Size(153, 6)
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
         Me.SalirToolStripMenuItem.Text = "&Salir"
         '
         'EditarToolStripMenuItem
@@ -200,14 +200,20 @@ Partial Class MenuPrincipal
         'PersonalizarToolStripMenuItem
         '
         Me.PersonalizarToolStripMenuItem.Name = "PersonalizarToolStripMenuItem"
-        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
         Me.PersonalizarToolStripMenuItem.Text = "&Personalizar"
         '
         'OpcionesToolStripMenuItem
         '
         Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
-        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
         Me.OpcionesToolStripMenuItem.Text = "&Opciones"
+        '
+        'DoctorToolStripMenuItem
+        '
+        Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
+        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
+        Me.DoctorToolStripMenuItem.Text = "Doctor"
         '
         'AyudaToolStripMenuItem
         '
@@ -219,37 +225,31 @@ Partial Class MenuPrincipal
         'ContenidoToolStripMenuItem
         '
         Me.ContenidoToolStripMenuItem.Name = "ContenidoToolStripMenuItem"
-        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.ContenidoToolStripMenuItem.Text = "&Contenido"
         '
         'ÍndiceToolStripMenuItem
         '
         Me.ÍndiceToolStripMenuItem.Name = "ÍndiceToolStripMenuItem"
-        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.ÍndiceToolStripMenuItem.Text = "Índic&e"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.BuscarToolStripMenuItem.Text = "&Buscar"
         '
         'toolStripSeparator5
         '
         Me.toolStripSeparator5.Name = "toolStripSeparator5"
-        Me.toolStripSeparator5.Size = New System.Drawing.Size(149, 6)
+        Me.toolStripSeparator5.Size = New System.Drawing.Size(132, 6)
         '
         'AcercadeToolStripMenuItem
         '
         Me.AcercadeToolStripMenuItem.Name = "AcercadeToolStripMenuItem"
-        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.AcercadeToolStripMenuItem.Text = "&Acerca de..."
-        '
-        'DoctorToolStripMenuItem
-        '
-        Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
-        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
-        Me.DoctorToolStripMenuItem.Text = "Doctor"
         '
         'StatusStrip1
         '
@@ -260,19 +260,19 @@ Partial Class MenuPrincipal
         Me.StatusStrip1.TabIndex = 2
         Me.StatusStrip1.Text = "StatusStrip1"
         '
-        'lblStatus
-        '
-        Me.lblStatus.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(54, 17)
-        Me.lblStatus.Text = "Beta v1.0"
-        '
         'lblStatus2
         '
         Me.lblStatus2.Name = "lblStatus2"
         Me.lblStatus2.Size = New System.Drawing.Size(716, 17)
         Me.lblStatus2.Spring = True
         Me.lblStatus2.Text = "By Pablo Exequiel Quiroga && Nicolas Schmidt"
+        '
+        'lblStatus
+        '
+        Me.lblStatus.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(54, 17)
+        Me.lblStatus.Text = "Beta v1.0"
         '
         'MenuPrincipal
         '

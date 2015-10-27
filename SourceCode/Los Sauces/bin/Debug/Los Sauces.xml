@@ -6,7 +6,251 @@ LosSauces
 </name>
 </assembly>
 <members>
-<member name="P:Los_Sauces.My.Resources.Resources.ResourceManager">
+<member name="T:Los_Sauces.DSLosSauces.ANALISISDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.DIRECCIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.EMPLEADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.ESPECIALIDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.GUIATELDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.MAESTRODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.MEDICODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.OBRASOCIALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.PACIENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.PROVEEDORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.SECTORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.SUCURSALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.TIPOANALISISDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.ANALISISRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.DIRECCIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.EMPLEADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.ESPECIALIDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.GUIATELRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.MAESTRORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.MEDICORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.OBRASOCIALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.PACIENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.PROVEEDORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.SECTORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.SUCURSALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.TIPOANALISISRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.ANALISISRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.DIRECCIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.EMPLEADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.ESPECIALIDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.GUIATELRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.MAESTRORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.MEDICORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.OBRASOCIALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.PACIENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.PROVEEDORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.SECTORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.SUCURSALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.TIPOANALISISRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.ANALISISTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.DIRECCIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.EMPLEADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.ESPECIALIDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.GUIATELTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.MAESTROTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.MEDICOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.OBRASOCIALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.PACIENTETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.PROVEEDORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.SECTORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.SUCURSALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.TIPOANALISISTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Los_Sauces.DSLosSauces,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.UpdateInsertedRows(Los_Sauces.DSLosSauces,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.UpdateDeletedRows(Los_Sauces.DSLosSauces,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.UpdateAll(Los_Sauces.DSLosSauces)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Los_Sauces.My.Resources.Resources.ResourceManager">
 	<summary>
   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
 </summary>
