@@ -4,7 +4,7 @@
         End
     End Sub
 
-    Private Sub DoctorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DoctorToolStripMenuItem.Click
+    Private Sub MedicoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MedicoToolStripMenuItem.Click
         FrmABMDoctor.ShowDialog()
     End Sub
 End Class

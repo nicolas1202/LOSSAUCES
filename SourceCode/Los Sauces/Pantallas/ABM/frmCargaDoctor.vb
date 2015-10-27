@@ -3,7 +3,8 @@
     Public Sub New()
         ' Llamada necesaria para el diseñador.
         InitializeComponent()
-        cboxEspecialidad.DataSource = MEDICONG.ObtenerEspecialidades()
+        Dim adap As DSLosSaucesTableAdapters.ESPECIALIDADTableAdapter = New DSLosSaucesTableAdapters.ESPECIALIDADTableAdapter()
+        cboxEspecialidad.DataSource = adap.GetData()
         cboxEspecialidad.DisplayMember = "nomesp"
         cboxEspecialidad.ValueMember = "nroesp"
         cboxEspecialidad.SelectedIndex = 0
@@ -45,5 +46,20 @@
     End Sub
 
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
+        Dim nromae As Integer
+        nromae = MAESTRONG.AgregaMaestro(txtApellido.Text & " " & txtNombre.Text, dtpFecnac.Value, txtCuit1.Text, txtCuit2.Text, txtCuit3.Text, cboxGenero.Text)
+        EMPLEADONG.AgregaEmpleado(cboxSector.SelectedValue, nromae, txtSueldo.Text, dtpFecing.Value, txtDesdeHorario.Text, txtHastaHorario.Text)
+
+
+
+
+    End Sub
+
+    Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter
+
+    End Sub
+
+    Private Sub GroupBox3_Enter(sender As Object, e As EventArgs) Handles GroupBox3.Enter
+
     End Sub
 End Class

@@ -23,16 +23,16 @@ Partial Class FrmABMDoctor
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.grdConsulta = New System.Windows.Forms.DataGridView()
-        Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.btnModificar = New System.Windows.Forms.Button()
-        Me.btnEliminar = New System.Windows.Forms.Button()
-        Me.txtBuscar = New System.Windows.Forms.TextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Legajo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Apellido = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Especialidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Matricula = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnAgregar = New System.Windows.Forms.Button()
+        Me.btnModificar = New System.Windows.Forms.Button()
+        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.txtBuscar = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.grdConsulta, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -49,6 +49,41 @@ Partial Class FrmABMDoctor
         Me.grdConsulta.RowHeadersVisible = False
         Me.grdConsulta.Size = New System.Drawing.Size(638, 280)
         Me.grdConsulta.TabIndex = 0
+        '
+        'Legajo
+        '
+        Me.Legajo.DataPropertyName = "nroleg"
+        Me.Legajo.HeaderText = "Legajo"
+        Me.Legajo.Name = "Legajo"
+        Me.Legajo.ReadOnly = True
+        '
+        'Nombre
+        '
+        Me.Nombre.DataPropertyName = "nomae"
+        Me.Nombre.HeaderText = "Nombre"
+        Me.Nombre.Name = "Nombre"
+        Me.Nombre.ReadOnly = True
+        '
+        'Apellido
+        '
+        Me.Apellido.DataPropertyName = "apemae"
+        Me.Apellido.HeaderText = "Apellido"
+        Me.Apellido.Name = "Apellido"
+        Me.Apellido.ReadOnly = True
+        '
+        'Especialidad
+        '
+        Me.Especialidad.DataPropertyName = "nroesp"
+        Me.Especialidad.HeaderText = "Especialidad"
+        Me.Especialidad.Name = "Especialidad"
+        Me.Especialidad.ReadOnly = True
+        '
+        'Matricula
+        '
+        Me.Matricula.DataPropertyName = "nromat"
+        Me.Matricula.HeaderText = "Matricula"
+        Me.Matricula.Name = "Matricula"
+        Me.Matricula.ReadOnly = True
         '
         'btnAgregar
         '
@@ -109,41 +144,6 @@ Partial Class FrmABMDoctor
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
-        '
-        'Legajo
-        '
-        Me.Legajo.DataPropertyName = "nroleg"
-        Me.Legajo.HeaderText = "Legajo"
-        Me.Legajo.Name = "Legajo"
-        Me.Legajo.ReadOnly = True
-        '
-        'Nombre
-        '
-        Me.Nombre.DataPropertyName = "nomae"
-        Me.Nombre.HeaderText = "Nombre"
-        Me.Nombre.Name = "Nombre"
-        Me.Nombre.ReadOnly = True
-        '
-        'Apellido
-        '
-        Me.Apellido.DataPropertyName = "apemae"
-        Me.Apellido.HeaderText = "Apellido"
-        Me.Apellido.Name = "Apellido"
-        Me.Apellido.ReadOnly = True
-        '
-        'Especialidad
-        '
-        Me.Especialidad.DataPropertyName = "nroesp"
-        Me.Especialidad.HeaderText = "Especialidad"
-        Me.Especialidad.Name = "Especialidad"
-        Me.Especialidad.ReadOnly = True
-        '
-        'Matricula
-        '
-        Me.Matricula.DataPropertyName = "nromat"
-        Me.Matricula.HeaderText = "Matricula"
-        Me.Matricula.Name = "Matricula"
-        Me.Matricula.ReadOnly = True
         '
         'FrmABMDoctor
         '

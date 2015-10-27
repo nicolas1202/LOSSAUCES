@@ -6,7 +6,35 @@ LosSauces
 </name>
 </assembly>
 <members>
-<member name="T:Los_Sauces.DSLosSauces.ANALISISDataTable">
+<member name="M:Los_Sauces.EMPLEADONG.AgregaEmpleado(System.Int32,System.Int32,System.Decimal,System.DateTime,System.String,System.String)">
+	<summary>
+ Agrega empleado y devuelve su nro de legajo.
+ </summary>
+	<param name="nrosec"></param>
+	<param name="nromae"></param>
+	<param name="sueldo"></param>
+	<param name="fecing"></param>
+	<param name="hrentrada"></param>
+	<param name="hrsalida"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Los_Sauces.MAESTRONG.AgregaMaestro(System.String,System.DateTime,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Agrega un maestro y retorna su id (nromae)
+ </summary>
+	<param name="rznSocial">Razon Social</param>
+	<param name="fecnac">Fecha nacimiento</param>
+	<param name="cuit1">primeros 2 digitos del CUIT</param>
+	<param name="cuit2">Digitos luego del segundo y antes del ultimo</param>
+	<param name="cuit3">Ultimo digito del cuit</param>
+	<param name="genero">Genero</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Los_Sauces.DSLosSauces.ANALISISDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.DIAGNOSTICODataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -62,6 +90,10 @@ Represents the strongly named DataTable class.
 	<summary>
 Represents strongly named DataRow class.
 </summary>
+</member><member name="T:Los_Sauces.DSLosSauces.DIAGNOSTICORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
 </member><member name="T:Los_Sauces.DSLosSauces.DIRECCIONRow">
 	<summary>
 Represents strongly named DataRow class.
@@ -111,6 +143,10 @@ Represents strongly named DataRow class.
 Represents strongly named DataRow class.
 </summary>
 </member><member name="T:Los_Sauces.DSLosSauces.ANALISISRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Los_Sauces.DSLosSauces.DIAGNOSTICORowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
@@ -167,6 +203,10 @@ Row event argument class
 Represents a strongly typed in-memory cache of data.
 </summary>
 </member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.ANALISISTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Los_Sauces.DSLosSaucesTableAdapters.DIAGNOSTICOTableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

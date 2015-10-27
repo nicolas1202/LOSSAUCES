@@ -32,11 +32,9 @@ C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\bin\Debug\Los Sauces.ex
 C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.exe
 C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.xml
 C:\Users\exequiel\Desktop\PROYECTO\Los Sauces\Los Sauces\obj\Debug\Los Sauces.pdb
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.exe.config
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.exe
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.pdb
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.xml
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.FrmABMDoctor.resources
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.FrmABMPaciente.resources
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.FrmCargaPaciente.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.FrmCargaDoctor.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.CargaDatos.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.cargaDoctor.resources
@@ -44,7 +42,10 @@ C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.MenuPrincipal.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los_Sauces.Resources.resources
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los Sauces.vbproj.GenerateResource.Cache
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.exe.config
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.exe
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.pdb
+C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\Los Sauces.xml
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los Sauces.exe
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los Sauces.xml
 C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\obj\Debug\Los Sauces.pdb
-C:\Users\exequiel\Documents\GitHub\LOSSAUCES\SourceCode\Los Sauces\bin\Debug\LosSaucesBD.accdb

@@ -32,19 +32,9 @@ Partial Class MenuPrincipal
         Me.GuardarcomoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DeshacerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RehacerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.toolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.CortarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopiarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PegarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.toolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.SeleccionartodoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PersonalizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DoctorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContenidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÍndiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -54,6 +44,7 @@ Partial Class MenuPrincipal
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.lblStatus2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.lblStatus = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.MedicoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.pboxEncabezado, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -72,7 +63,7 @@ Partial Class MenuPrincipal
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.EditarToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.DoctorToolStripMenuItem, Me.AyudaToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.AyudaToolStripMenuItem, Me.MedicoToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 140)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(785, 24)
@@ -126,70 +117,6 @@ Partial Class MenuPrincipal
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
         Me.SalirToolStripMenuItem.Text = "&Salir"
         '
-        'EditarToolStripMenuItem
-        '
-        Me.EditarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeshacerToolStripMenuItem, Me.RehacerToolStripMenuItem, Me.toolStripSeparator3, Me.CortarToolStripMenuItem, Me.CopiarToolStripMenuItem, Me.PegarToolStripMenuItem, Me.toolStripSeparator4, Me.SeleccionartodoToolStripMenuItem})
-        Me.EditarToolStripMenuItem.Name = "EditarToolStripMenuItem"
-        Me.EditarToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
-        Me.EditarToolStripMenuItem.Text = "&Editar"
-        '
-        'DeshacerToolStripMenuItem
-        '
-        Me.DeshacerToolStripMenuItem.Name = "DeshacerToolStripMenuItem"
-        Me.DeshacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
-        Me.DeshacerToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.DeshacerToolStripMenuItem.Text = "&Deshacer"
-        '
-        'RehacerToolStripMenuItem
-        '
-        Me.RehacerToolStripMenuItem.Name = "RehacerToolStripMenuItem"
-        Me.RehacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
-        Me.RehacerToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.RehacerToolStripMenuItem.Text = "&Rehacer"
-        '
-        'toolStripSeparator3
-        '
-        Me.toolStripSeparator3.Name = "toolStripSeparator3"
-        Me.toolStripSeparator3.Size = New System.Drawing.Size(160, 6)
-        '
-        'CortarToolStripMenuItem
-        '
-        Me.CortarToolStripMenuItem.Image = CType(resources.GetObject("CortarToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.CortarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.CortarToolStripMenuItem.Name = "CortarToolStripMenuItem"
-        Me.CortarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.CortarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.CortarToolStripMenuItem.Text = "Cor&tar"
-        '
-        'CopiarToolStripMenuItem
-        '
-        Me.CopiarToolStripMenuItem.Image = CType(resources.GetObject("CopiarToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.CopiarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.CopiarToolStripMenuItem.Name = "CopiarToolStripMenuItem"
-        Me.CopiarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.CopiarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.CopiarToolStripMenuItem.Text = "&Copiar"
-        '
-        'PegarToolStripMenuItem
-        '
-        Me.PegarToolStripMenuItem.Image = CType(resources.GetObject("PegarToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.PegarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.PegarToolStripMenuItem.Name = "PegarToolStripMenuItem"
-        Me.PegarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.PegarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.PegarToolStripMenuItem.Text = "&Pegar"
-        '
-        'toolStripSeparator4
-        '
-        Me.toolStripSeparator4.Name = "toolStripSeparator4"
-        Me.toolStripSeparator4.Size = New System.Drawing.Size(160, 6)
-        '
-        'SeleccionartodoToolStripMenuItem
-        '
-        Me.SeleccionartodoToolStripMenuItem.Name = "SeleccionartodoToolStripMenuItem"
-        Me.SeleccionartodoToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.SeleccionartodoToolStripMenuItem.Text = "&Seleccionar todo"
-        '
         'HerramientasToolStripMenuItem
         '
         Me.HerramientasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonalizarToolStripMenuItem, Me.OpcionesToolStripMenuItem})
@@ -200,20 +127,14 @@ Partial Class MenuPrincipal
         'PersonalizarToolStripMenuItem
         '
         Me.PersonalizarToolStripMenuItem.Name = "PersonalizarToolStripMenuItem"
-        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
+        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PersonalizarToolStripMenuItem.Text = "&Personalizar"
         '
         'OpcionesToolStripMenuItem
         '
         Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
-        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
+        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.OpcionesToolStripMenuItem.Text = "&Opciones"
-        '
-        'DoctorToolStripMenuItem
-        '
-        Me.DoctorToolStripMenuItem.Name = "DoctorToolStripMenuItem"
-        Me.DoctorToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
-        Me.DoctorToolStripMenuItem.Text = "Doctor"
         '
         'AyudaToolStripMenuItem
         '
@@ -225,30 +146,30 @@ Partial Class MenuPrincipal
         'ContenidoToolStripMenuItem
         '
         Me.ContenidoToolStripMenuItem.Name = "ContenidoToolStripMenuItem"
-        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ContenidoToolStripMenuItem.Text = "&Contenido"
         '
         'ÍndiceToolStripMenuItem
         '
         Me.ÍndiceToolStripMenuItem.Name = "ÍndiceToolStripMenuItem"
-        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ÍndiceToolStripMenuItem.Text = "Índic&e"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BuscarToolStripMenuItem.Text = "&Buscar"
         '
         'toolStripSeparator5
         '
         Me.toolStripSeparator5.Name = "toolStripSeparator5"
-        Me.toolStripSeparator5.Size = New System.Drawing.Size(132, 6)
+        Me.toolStripSeparator5.Size = New System.Drawing.Size(149, 6)
         '
         'AcercadeToolStripMenuItem
         '
         Me.AcercadeToolStripMenuItem.Name = "AcercadeToolStripMenuItem"
-        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AcercadeToolStripMenuItem.Text = "&Acerca de..."
         '
         'StatusStrip1
@@ -273,6 +194,12 @@ Partial Class MenuPrincipal
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(54, 17)
         Me.lblStatus.Text = "Beta v1.0"
+        '
+        'MedicoToolStripMenuItem
+        '
+        Me.MedicoToolStripMenuItem.Name = "MedicoToolStripMenuItem"
+        Me.MedicoToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
+        Me.MedicoToolStripMenuItem.Text = "Medico"
         '
         'MenuPrincipal
         '
@@ -307,15 +234,6 @@ Partial Class MenuPrincipal
     Friend WithEvents GuardarcomoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents toolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EditarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DeshacerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RehacerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents toolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents CortarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CopiarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PegarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents toolStripSeparator4 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents SeleccionartodoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HerramientasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PersonalizarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents OpcionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -325,8 +243,8 @@ Partial Class MenuPrincipal
     Friend WithEvents BuscarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents toolStripSeparator5 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents AcercadeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DoctorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents lblStatus As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents lblStatus2 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents MedicoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -86,7 +86,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\DIRECCIONNG.vb" />
+    <Compile Include="Clases\EMPLEADONG.vb" />
     <Compile Include="Clases\MAESTRONG.vb" />
     <Compile Include="Clases\MEDICONG.vb" />
     <Compile Include="Clases\Utilidades.vb" />
@@ -99,6 +99,18 @@
       <DependentUpon>FrmABMDoctor.vb</DependentUpon>
     </Compile>
     <Compile Include="Pantallas\ABM\FrmABMDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmABMPaciente.Designer.vb">
+      <DependentUpon>FrmABMPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmABMPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmCargaPaciente.Designer.vb">
+      <DependentUpon>FrmCargaPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ABM\FrmCargaPaciente.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Pantallas\ABM\FrmCargaDoctor.Designer.vb">
@@ -150,6 +162,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Pantallas\ABM\FrmABMDoctor.resx">
       <DependentUpon>FrmABMDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ABM\FrmABMPaciente.resx">
+      <DependentUpon>FrmABMPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ABM\FrmCargaPaciente.resx">
+      <DependentUpon>FrmCargaPaciente.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pantallas\ABM\FrmCargaDoctor.resx">
       <DependentUpon>FrmCargaDoctor.vb</DependentUpon>
@@ -253,11 +271,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="LosSaucesBD.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

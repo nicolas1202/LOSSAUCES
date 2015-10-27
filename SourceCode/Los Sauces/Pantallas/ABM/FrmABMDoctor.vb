@@ -2,8 +2,8 @@
     Private filaActual As DataRowView
     Private Sub FrmABMDoctor_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         grdConsulta.AutoGenerateColumns = False
-        Dim a As DSLosSaucesTableAdapters.MEDICOTableAdapter = New DSLosSaucesTableAdapters.MEDICOTableAdapter()
-        grdConsulta.DataSource = a.GetDataTable()
+        Dim med As DSLosSaucesTableAdapters.MEDICOTableAdapter = New DSLosSaucesTableAdapters.MEDICOTableAdapter()
+        grdConsulta.DataSource = med.GetData()
     End Sub
 
     Private Sub grdConsulta_SelectionChanged(sender As Object, e As EventArgs) Handles grdConsulta.SelectionChanged
@@ -17,6 +17,13 @@
             'MEDICONG.AgregaMedico(frm.txtNombre.Text, frm.txtApellido.Text)
 
         End If
+
+
+
+    End Sub
+
+    Private Sub btnModificar_Click(sender As Object, e As EventArgs) Handles btnModificar.Click
+
 
 
 
